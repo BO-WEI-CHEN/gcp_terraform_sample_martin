@@ -1,0 +1,3 @@
+# 使用 Nginx
+FROM nginx
+COPY ./static_website /usr/share/nginx/html
